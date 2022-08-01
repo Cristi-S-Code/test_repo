@@ -1,0 +1,67 @@
+html{
+    /* background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%); */
+    background: url(img/image-bg.png);
+    /* background-repeat:  no-repeat; */
+    background-size: cover;
+   
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.logo{
+    width: 15%;
+    background-color: inherit;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-radius: 8px;
+    background-color:#dfdfef;
+    
+    
+
+}
+li{
+    padding: 14px 16px;
+    border: 8px 8px;
+}
+a{
+    text-decoration: none;
+    color: #666666;
+}
+form{
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: space-around;
+    height: 50vh;
+    width: 100vw;
+
+}
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+    background-color: #dfdfef;
+    padding: 30px;
+}
+input{
+    padding: 15px;
+    margin-top: 15px;   
+    width: 450px;    
+}
+#birthdate{
+    width: 200px;
+}
+/* .submit-buttons{
+    display: flex;
+    justify-content: center;
+    
+} */
